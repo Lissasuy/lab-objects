@@ -9,7 +9,6 @@ from lab_classes import User, Tweet
 def build_feed():
     # Create your accounts and posts, then call their methods.
     # Return the two lists: return users, posts
-    pass
     alice = User('alice')
     bob = User('bob')
     users = [alice, bob]
@@ -32,7 +31,6 @@ def build_feed():
 
 def main():
     # Call build_feed and display the returned objects and hashtags.
-    pass
     users, posts = build_feed()
 
     for user in users:
